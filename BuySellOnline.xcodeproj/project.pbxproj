@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592032C1EA23A6B663607262 /* Pods_BuySellOnline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8EAB53FA0918C43CF609DAD /* Pods_BuySellOnline.framework */; };
+		E2C0674B1FE0E63100847346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0674A1FE0E63100847346 /* AppDelegate.swift */; };
+		E2C0674D1FE0E63100847346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0674C1FE0E63100847346 /* ViewController.swift */; };
+		E2C067501FE0E63100847346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C0674E1FE0E63100847346 /* Main.storyboard */; };
+		E2C067531FE0E63100847346 /* BuySellOnline.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2C067511FE0E63100847346 /* BuySellOnline.xcdatamodeld */; };
+		E2C067551FE0E63100847346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C067541FE0E63100847346 /* Assets.xcassets */; };
+		E2C067581FE0E63200847346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C067561FE0E63200847346 /* LaunchScreen.storyboard */; };
+		E2C067611FE0EA6500847346 /* logInSignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C067601FE0EA6500847346 /* logInSignupViewController.swift */; };
+		E2C067631FE0ED4400847346 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2C0675F1FE0E66E00847346 /* GoogleService-Info.plist */; };
+		E2C067671FE101A600847346 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C067661FE101A600847346 /* MyApp.swift */; };
+		E2C067691FE11D8D00847346 /* editProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C067681FE11D8D00847346 /* editProfileViewController.swift */; };
+		E2C35C1A1FE13E94000CB703 /* userProfileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C35C191FE13E94000CB703 /* userProfileDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BD45298E353E847B60238D1 /* Pods-BuySellOnline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuySellOnline.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuySellOnline/Pods-BuySellOnline.release.xcconfig"; sourceTree = "<group>"; };
+		A8EAB53FA0918C43CF609DAD /* Pods_BuySellOnline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuySellOnline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C067471FE0E63100847346 /* BuySellOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuySellOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C0674A1FE0E63100847346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C0674C1FE0E63100847346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2C0674F1FE0E63100847346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2C067521FE0E63100847346 /* BuySellOnline.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuySellOnline.xcdatamodel; sourceTree = "<group>"; };
+		E2C067541FE0E63100847346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C067571FE0E63200847346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C067591FE0E63200847346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C0675F1FE0E66E00847346 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2C067601FE0EA6500847346 /* logInSignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInSignupViewController.swift; sourceTree = "<group>"; };
+		E2C067661FE101A600847346 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		E2C067681FE11D8D00847346 /* editProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileViewController.swift; sourceTree = "<group>"; };
+		E2C35C191FE13E94000CB703 /* userProfileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileDetailViewController.swift; sourceTree = "<group>"; };
+		F51EB37729A25D9DB6929E94 /* Pods-BuySellOnline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuySellOnline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuySellOnline/Pods-BuySellOnline.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C067441FE0E63100847346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592032C1EA23A6B663607262 /* Pods_BuySellOnline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27968532A59260C1728FC10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8EAB53FA0918C43CF609DAD /* Pods_BuySellOnline.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8184BE5F9BDA8ABFA07BD133 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F51EB37729A25D9DB6929E94 /* Pods-BuySellOnline.debug.xcconfig */,
+				2BD45298E353E847B60238D1 /* Pods-BuySellOnline.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2C0673E1FE0E63100847346 = {
+			isa = PBXGroup;
+			children = (
+				E2C067491FE0E63100847346 /* BuySellOnline */,
+				E2C067481FE0E63100847346 /* Products */,
+				8184BE5F9BDA8ABFA07BD133 /* Pods */,
+				27968532A59260C1728FC10B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C067481FE0E63100847346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C067471FE0E63100847346 /* BuySellOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C067491FE0E63100847346 /* BuySellOnline */ = {
+			isa = PBXGroup;
+			children = (
+				E2C067621FE0EB0200847346 /* MyViewController */,
+				E2C0674A1FE0E63100847346 /* AppDelegate.swift */,
+				E2C0674C1FE0E63100847346 /* ViewController.swift */,
+				E2C0674E1FE0E63100847346 /* Main.storyboard */,
+				E2C067541FE0E63100847346 /* Assets.xcassets */,
+				E2C067561FE0E63200847346 /* LaunchScreen.storyboard */,
+				E2C067591FE0E63200847346 /* Info.plist */,
+				E2C067511FE0E63100847346 /* BuySellOnline.xcdatamodeld */,
+				E2C0675F1FE0E66E00847346 /* GoogleService-Info.plist */,
+			);
+			path = BuySellOnline;
+			sourceTree = "<group>";
+		};
+		E2C067621FE0EB0200847346 /* MyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2C067601FE0EA6500847346 /* logInSignupViewController.swift */,
+				E2C067661FE101A600847346 /* MyApp.swift */,
+				E2C067681FE11D8D00847346 /* editProfileViewController.swift */,
+				E2C35C191FE13E94000CB703 /* userProfileDetailViewController.swift */,
+			);
+			path = MyViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C067461FE0E63100847346 /* BuySellOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C0675C1FE0E63200847346 /* Build configuration list for PBXNativeTarget "BuySellOnline" */;
+			buildPhases = (
+				D04145AB1C9B0C4C6D6ADBD6 /* [CP] Check Pods Manifest.lock */,
+				E2C067431FE0E63100847346 /* Sources */,
+				E2C067441FE0E63100847346 /* Frameworks */,
+				E2C067451FE0E63100847346 /* Resources */,
+				2601C34F7275EF03E2D2C34E /* [CP] Embed Pods Frameworks */,
+				FBF05CBA442D4BB098DD7AA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuySellOnline;
+			productName = BuySellOnline;
+			productReference = E2C067471FE0E63100847346 /* BuySellOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C0673F1FE0E63100847346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RoboCam;
+				TargetAttributes = {
+					E2C067461FE0E63100847346 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2C067421FE0E63100847346 /* Build configuration list for PBXProject "BuySellOnline" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C0673E1FE0E63100847346;
+			productRefGroup = E2C067481FE0E63100847346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C067461FE0E63100847346 /* BuySellOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C067451FE0E63100847346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C067581FE0E63200847346 /* LaunchScreen.storyboard in Resources */,
+				E2C067631FE0ED4400847346 /* GoogleService-Info.plist in Resources */,
+				E2C067551FE0E63100847346 /* Assets.xcassets in Resources */,
+				E2C067501FE0E63100847346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2601C34F7275EF03E2D2C34E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BuySellOnline/Pods-BuySellOnline-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuySellOnline/Pods-BuySellOnline-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04145AB1C9B0C4C6D6ADBD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuySellOnline-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF05CBA442D4BB098DD7AA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuySellOnline/Pods-BuySellOnline-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C067431FE0E63100847346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C067611FE0EA6500847346 /* logInSignupViewController.swift in Sources */,
+				E2C35C1A1FE13E94000CB703 /* userProfileDetailViewController.swift in Sources */,
+				E2C0674D1FE0E63100847346 /* ViewController.swift in Sources */,
+				E2C067691FE11D8D00847346 /* editProfileViewController.swift in Sources */,
+				E2C067531FE0E63100847346 /* BuySellOnline.xcdatamodeld in Sources */,
+				E2C0674B1FE0E63100847346 /* AppDelegate.swift in Sources */,
+				E2C067671FE101A600847346 /* MyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2C0674E1FE0E63100847346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C0674F1FE0E63100847346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C067561FE0E63200847346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C067571FE0E63200847346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C0675A1FE0E63200847346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2C0675B1FE0E63200847346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C0675D1FE0E63200847346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51EB37729A25D9DB6929E94 /* Pods-BuySellOnline.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQD4CQ25H;
+				INFOPLIST_FILE = BuySellOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoboCam.BuySellOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C0675E1FE0E63200847346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD45298E353E847B60238D1 /* Pods-BuySellOnline.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7LQD4CQ25H;
+				INFOPLIST_FILE = BuySellOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RoboCam.BuySellOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C067421FE0E63100847346 /* Build configuration list for PBXProject "BuySellOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C0675A1FE0E63200847346 /* Debug */,
+				E2C0675B1FE0E63200847346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C0675C1FE0E63200847346 /* Build configuration list for PBXNativeTarget "BuySellOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C0675D1FE0E63200847346 /* Debug */,
+				E2C0675E1FE0E63200847346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2C067511FE0E63100847346 /* BuySellOnline.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2C067521FE0E63100847346 /* BuySellOnline.xcdatamodel */,
+			);
+			currentVersion = E2C067521FE0E63100847346 /* BuySellOnline.xcdatamodel */;
+			path = BuySellOnline.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2C0673F1FE0E63100847346 /* Project object */;
+}
